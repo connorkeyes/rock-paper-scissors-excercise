@@ -18,19 +18,19 @@ while True:
     inp = input("Rock, Paper, Scissors, Shoot!")
     print("Your move:", inp)
     print("My move:", comp_move)
-    if inp = "Rock":
-        if comp_move = "Rock":
+    if inp == "Rock":
+        if comp_move == "Rock":
             print("It's a tie!")
-        if comp_move = "Paper"
+        if comp_move == "Paper"
             print("You lose! Loser!")
-        if comp_move = "Scissors"
+        if comp_move == "Scissors"
             print("I lose! Dang it!")
-    elif inp = "Paper":
-        if comp_move = "Rock":
+    elif inp == "Paper":
+        if comp_move == "Rock":
             print("It's a tie!")
-        if comp_move = "Paper"
+        if comp_move == "Paper"
             print("You lose! Loser!")
-        if comp_move = "Scissors"
+        if comp_move == "Scissors"
             print("I lose! Dang it!")
     
     
