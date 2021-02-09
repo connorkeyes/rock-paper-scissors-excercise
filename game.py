@@ -1,14 +1,17 @@
 # game.py
 
-# import os
+import os
 import random
 
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
+
+load_dotenv()
+
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 
 line = "-------------------"
 
-username = input("Please enter your name:")
-question = input(f"Welcome, {username}, to my rock paper scissors game! Would you like to play?")
+question = input(f"Welcome, '{PLAYER_NAME}', to my rock paper scissors game! Would you like to play? ")
 
 if question == str.casefold("Yes"):
     print("Awesome! Let's do it!")
