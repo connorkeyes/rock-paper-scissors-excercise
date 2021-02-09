@@ -10,12 +10,12 @@ load_dotenv()
 PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 
 line = "-------------------"
-
+print(line)
 question = input(f"Welcome, '{PLAYER_NAME}', to my rock paper scissors game! Would you like to play? ")
+print(line)
 
 if question == str.casefold("Yes"):
     print("Awesome! Let's do it!")
-    print(line)
     print(line)
 
 elif question == str.casefold("No"):
