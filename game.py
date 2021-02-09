@@ -57,3 +57,6 @@ elif user_move == str.casefold("Scissors"):
 else:
     print("Something went wrong. Please enter rock, paper, or scissors as your move.")
     exit()
+
+print(line)
+print("Thank you for playing. Please come again!")
